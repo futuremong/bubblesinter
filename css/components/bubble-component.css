@@ -1,0 +1,22 @@
+.bubble-component {
+    display: flex;
+}
+
+.bubble-component {
+    justify-content: space-between;
+}
+
+.bubble-component,
+.bubble-component__column:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.main-screen {
+    margin-top: 100px;
+}
+
+.bubble-component__uncheck {
+    margin-top:-19px;
+    color:rgba(0, 0, 0, 0.3);
+}

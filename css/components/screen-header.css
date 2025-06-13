@@ -1,0 +1,36 @@
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--horizontal--space);
+    padding-top: 40px;
+    margin-bottom: 5px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    z-index: 1;
+}
+
+.screen-header__title {
+    font-size: 28px;
+    font-weight: 600;
+
+}
+
+.screen-header__icons span {
+    margin-left: 25px;
+}
+
+.screen-header__alarm {
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    top: 36px;
+}
